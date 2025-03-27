@@ -3,81 +3,72 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#DC714D",
+    "light": "#F5D6C6",
+    "dark": "#804020"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
+        "group": "Accounts",
+        "pages": [
+          "personal-account",
+          "business-account"
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "group": "Services",
+        "pages": [
+          "dafricheck-out",
+          "send-money",
+          "invoicing",
+          "mobicash",
+          "dafrifx-hub"
+        ]
+      },
+      {
+        "group": "PitchDeck & VCs Invitation",
+        "pages": [
+          "pitchdeck/our-story",
+          "pitchdeck/brands-on-dafripremier",
+          "pitchdeck/core-features",
+          "pitchdeck/target-market",
+          "pitchdeck/financial-highlights",
+          "pitchdeck/business-model",
+          "pitchdeck/fintech-era",
+          "pitchdeck/fintech-making-wave-in-africa",
+          "pitchdeck/dafri-on-a-mission",
+          "pitchdeck/long-term-vision",
+          "pitchdeck/capital-requirement-purposes",
+          "pitchdeck/key-figure",
+          "pitchdeck/conclusion"
+        ]
+      },
+      {
+        "group": "Whitepaper",
+        "pages": [
+          "whitepaper/abstract",
+          "whitepaper/our-story",
+          "whitepaper/brands-on-dafripremier",
+          "whitepaper/core-features",
+          "whitepaper/fintech-making-wave-in-africa",
+          "whitepaper/dafri-on-a-mission",
+          "whitepaper/long-term-vision",
+          "whitepaper/capital-requirement-purposes",
+          "whitepaper/token-information",
+          "whitepaper/key-figure",
+          "whitepaper/conclusion"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "hideOnPages": [
+      "personal-account"
+    ]
   },
   "navbar": {
     "links": [
@@ -98,5 +89,12 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "background": {
+    "color": {
+      "light": "#E4EBE1",
+      "dark": "#1E261B"
+    },
+    "decoration": "grid"
   }
 }
