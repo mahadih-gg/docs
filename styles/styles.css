@@ -1,0 +1,15 @@
+/* #navbar,
+#sidebar {
+  @apply !bg-[#919586] !dark:bg-[#3B4337];
+} */
+
+/* #sidebar {
+  margin-top: -1px;
+  z-index: 1000;
+} */
+
+/* 
+#sidebar-content {
+  padding: 0 20px;
+  margin-top: 1px;
+} */
