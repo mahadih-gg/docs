@@ -64,7 +64,7 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "/logo/dark.svg",
     "dark": "/logo/dark.svg",
     "hideOnPages": [
       "personal-account"

@@ -3,7 +3,14 @@
 #sidebar,
 #navbar-transition {
   background-color: #3B4337 !important;
-  color: #ffffff;
+  color: #ffffff !important;
+}
+
+/* Force consistent colors for all text elements in sidebar and navbar */
+#sidebar *,
+#navbar *,
+#navbar-transition * {
+  color: #ffffff !important;
 }
 
 #sidebar {
