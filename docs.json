@@ -80,10 +80,125 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "instagram": "https://www.instagram.com/dafripremier/",
+      "facebook": "https://www.facebook.com/dafripremier/",
+      "x": "https://x.com/dafripremier"
+    },
+    "links": [
+      {
+        "header": "Features",
+        "items": [
+          {
+            "label": "DafriPremier™ For Me",
+            "href": "https://dafripremier.com/dafripremier-for-me/"
+          },
+          {
+            "label": "DafriPremier™ For Business",
+            "href": "https://dafripremier.com/dafripremier-for-business/"
+          },
+          {
+            "label": "DafriCheck Out™",
+            "href": "https://dafripremier.com/dafricheck-out/"
+          },
+          {
+            "label": "Mobi Cash®",
+            "href": "https://dafripremier.com/mobicash/"
+          },
+          {
+            "label": "Escrow Pay",
+            "href": "https://dafripremier.com/escrow-pay/"
+          },
+          {
+            "label": "Invoicing",
+            "href": "https://dafripremier.com/invoicing/"
+          },
+          {
+            "label": "DafriFX®",
+            "href": "https://dafripremier.com/dafrifx-hub/"
+          },
+          {
+            "label": "Dollar Account®",
+            "href": "https://dafripremier.com/dollar-account/"
+          },
+          {
+            "label": "Crypto E-commerce",
+            "href": "https://dafripremier.com/crypto-e-commerce/"
+          },
+          {
+            "label": "Airtime & Gift cards",
+            "href": "https://dafripremier.com/airtime-gift-cards/"
+          },
+          {
+            "label": "eDeposit",
+            "href": "https://dafripremier.com/edeposit/"
+          }
+        ]
+      },
+      {
+        "header": "Company",
+        "items": [
+          {
+            "label": "Blog",
+            "href": "https://dafripremier.com/blog/"
+          },
+          {
+            "label": "Press",
+            "href": "https://dafripremier.com/press/"
+          },
+          {
+            "label": "Join Our Team",
+            "href": "https://dafripremier.com/join-our-team/"
+          },
+          {
+            "label": "About Us",
+            "href": "https://dafripremier.com/about-us/"
+          }
+        ]
+      },
+      {
+        "header": "Help",
+        "items": [
+          {
+            "label": "Get Help",
+            "href": "https://dafripremier.com/get-help/"
+          },
+          {
+            "label": "Knowledge Base",
+            "href": "https://dafripremier.com/knowledge-base/"
+          },
+          {
+            "label": "Security",
+            "href": "https://dafripremier.com/security/"
+          },
+          {
+            "label": "Contact Us",
+            "href": "https://dafripremier.com/contact-us/"
+          }
+        ]
+      },
+      {
+        "header": "Transparency",
+        "items": [
+          {
+            "label": "Terms & Conditions",
+            "href": "https://dafripremier.com/terms-and-conditions/"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://dafripremier.com/privacy-policy/"
+          },
+          {
+            "label": "Cookie Policy",
+            "href": "https://dafripremier.com/cookie-policy/"
+          },
+          {
+            "label": "AML Policy",
+            "href": "https://dafripremier.com/aml-policy/"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2025 DafriPremier (PTY) LTD. All Rights Reserved."
   },
   "background": {
     "color": {

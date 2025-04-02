@@ -11,6 +11,28 @@
   z-index: 1000;
 }
 
+/* Footer in dark mode to match navbar and sidebar */
+/* Footer in dark mode to match navbar and sidebar */
+#footer {
+  background-color: #3B4337 !important;
+  color: #ffffff;
+  width: 100%;
+}
+
+#footer a,
+#footer span,
+#footer p {
+  color: #ffffff !important;
+}
+
+#footer a:hover {
+  color: #A0A8A0 !important;
+}
+
+#footer img {
+  height: 100px !important;
+}
+
 /* Search bar in dark mode */
 #search-bar-entry,
 #search-bar {
