@@ -28,24 +28,6 @@
         ]
       },
       {
-        "group": "PitchDeck & VCs Invitation",
-        "pages": [
-          "pitchdeck/our-story",
-          "pitchdeck/brands-on-dafripremier",
-          "pitchdeck/core-features",
-          "pitchdeck/target-market",
-          "pitchdeck/financial-highlights",
-          "pitchdeck/business-model",
-          "pitchdeck/fintech-era",
-          "pitchdeck/fintech-making-wave-in-africa",
-          "pitchdeck/dafri-on-a-mission",
-          "pitchdeck/long-term-vision",
-          "pitchdeck/capital-requirement-purposes",
-          "pitchdeck/key-figure",
-          "pitchdeck/conclusion"
-        ]
-      },
-      {
         "group": "Whitepaper",
         "pages": [
           "whitepaper/abstract",
@@ -58,7 +40,8 @@
           "whitepaper/capital-requirement-purposes",
           "whitepaper/token-information",
           "whitepaper/key-figure",
-          "whitepaper/conclusion"
+          "whitepaper/conclusion",
+          "vc-prospectus"
         ]
       }
     ]
@@ -89,48 +72,32 @@
         "header": "Features",
         "items": [
           {
-            "label": "DafriPremier™ For Me",
-            "href": "https://dafripremier.com/dafripremier-for-me/"
+            "label": "Personal Account",
+            "href": "https://dafripremier.com/personal-account/"
           },
           {
-            "label": "DafriPremier™ For Business",
-            "href": "https://dafripremier.com/dafripremier-for-business/"
+            "label": "Business Account",
+            "href": "https://dafripremier.com/business-account/"
           },
           {
             "label": "DafriCheck Out™",
             "href": "https://dafripremier.com/dafricheck-out/"
           },
           {
-            "label": "Mobi Cash®",
-            "href": "https://dafripremier.com/mobicash/"
-          },
-          {
-            "label": "Escrow Pay",
-            "href": "https://dafripremier.com/escrow-pay/"
+            "label": "Send Money",
+            "href": "https://dafripremier.com/send-money/"
           },
           {
             "label": "Invoicing",
             "href": "https://dafripremier.com/invoicing/"
           },
           {
-            "label": "DafriFX®",
+            "label": "MobiCash",
+            "href": "https://dafripremier.com/mobicash/"
+          },
+          {
+            "label": "DafriFX Hub",
             "href": "https://dafripremier.com/dafrifx-hub/"
-          },
-          {
-            "label": "Dollar Account®",
-            "href": "https://dafripremier.com/dollar-account/"
-          },
-          {
-            "label": "Crypto E-commerce",
-            "href": "https://dafripremier.com/crypto-e-commerce/"
-          },
-          {
-            "label": "Airtime & Gift cards",
-            "href": "https://dafripremier.com/airtime-gift-cards/"
-          },
-          {
-            "label": "eDeposit",
-            "href": "https://dafripremier.com/edeposit/"
           }
         ]
       },
@@ -209,5 +176,13 @@
   },
   "css": [
     "styles/sidebar.css"
+  ],
+  "head": [
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "./scripts/scripts.js"
+      }
+    }
   ]
 }
