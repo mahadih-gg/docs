@@ -54,3 +54,57 @@ observer.observe(document.body, {
   subtree: true,
   attributes: true,
 });
+
+// Footer
+
+const footerItems = [
+  {
+    label: "Personal Account",
+    prevHref: "https://dafripremier.com/personal-account/",
+    href: "/personal-account",
+  },
+  {
+    label: "Business Account",
+    prevHref: "https://dafripremier.com/business-account/",
+    href: "/business-account",
+  },
+  {
+    label: "DafriCheck Out™",
+    prevHref: "https://dafripremier.com/dafricheck-out/",
+    href: "/dafricheck-out",
+  },
+  {
+    label: "Send Money",
+    prevHref: "https://dafripremier.com/send-money/",
+    href: "/send-money",
+  },
+  {
+    label: "Invoicing",
+    prevHref: "https://dafripremier.com/invoicing/",
+    href: "/invoicing",
+  },
+  {
+    label: "MobiCash",
+    prevHref: "https://dafripremier.com/mobicash/",
+    href: "/mobicash",
+  },
+  {
+    label: "DafriFX Hub",
+    prevHref: "https://dafripremier.com/dafrifx-hub/",
+    href: "/dafrifx-hub",
+  },
+];
+
+const footerLinks = document.querySelectorAll("footer a");
+
+footerLinks.forEach((link) => {
+  const href = link.getAttribute("href");
+
+  console.log(href);
+  const footerItem = footerItems.find((item) => item.prevHref === href);
+  if (footerItem) {
+    link.removeAttribute("target");
+    link.removeAttribute("rel");
+    link.setAttribute("href", footerItem.href);
+  }
+});
