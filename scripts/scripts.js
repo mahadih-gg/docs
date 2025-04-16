@@ -12,7 +12,7 @@ const modifySidebarVcItem = (element) => {
   if (link) {
     link.setAttribute(
       "href",
-      "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      "https://dl.dropboxusercontent.com/scl/fi/bpsk4i5jh4ooht67zf9jl/vc-prospectus.pdf?rlkey=k8y8nbwa969mv23xvmnbvwxcf&st=dxaxklou"
     );
     link.setAttribute("download", "VC-Prospectus.pdf");
   }
