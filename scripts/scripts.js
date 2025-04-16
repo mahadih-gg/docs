@@ -10,7 +10,7 @@ const modifySidebarVcItem = (element) => {
 
   const link = element.querySelector("a");
   if (link) {
-    link.setAttribute("href", "/static/files/vc-prospectus.pdf");
+    link.setAttribute("href", "/assets/files/vc-prospectus.pdf");
     link.setAttribute("download", "VC-Prospectus.pdf");
   }
 };
