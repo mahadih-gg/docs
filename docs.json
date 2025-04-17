@@ -106,19 +106,19 @@
         "items": [
           {
             "label": "Blog",
-            "href": "https://dafripremier.com/blog/"
+            "href": "https://www.dafripremier.com/blogs"
           },
           {
             "label": "Press",
-            "href": "https://dafripremier.com/press/"
+            "href": "https://www.dafripremier.com/press"
           },
           {
             "label": "Join Our Team",
-            "href": "https://dafripremier.com/join-our-team/"
+            "href": "https://www.dafripremier.com/career"
           },
           {
             "label": "About Us",
-            "href": "https://dafripremier.com/about-us/"
+            "href": "https://www.dafripremier.com/about"
           }
         ]
       },
@@ -127,19 +127,19 @@
         "items": [
           {
             "label": "Get Help",
-            "href": "https://dafripremier.com/get-help/"
+            "href": "https://www.dafripremier.com"
           },
           {
             "label": "Knowledge Base",
-            "href": "https://dafripremier.com/knowledge-base/"
+            "href": "https://www.dafripremier.com"
           },
           {
             "label": "Security",
-            "href": "https://dafripremier.com/security/"
+            "href": "https://www.dafripremier.com"
           },
           {
             "label": "Contact Us",
-            "href": "https://dafripremier.com/contact-us/"
+            "href": "https://www.dafripremier.com/contact"
           }
         ]
       },
@@ -148,19 +148,19 @@
         "items": [
           {
             "label": "Terms & Conditions",
-            "href": "https://dafripremier.com/terms-and-conditions/"
+            "href": "https://www.dafripremier.com"
           },
           {
             "label": "Privacy Policy",
-            "href": "https://dafripremier.com/privacy-policy/"
+            "href": "https://www.dafripremier.com"
           },
           {
             "label": "Cookie Policy",
-            "href": "https://dafripremier.com/cookie-policy/"
+            "href": "https://www.dafripremier.com"
           },
           {
             "label": "AML Policy",
-            "href": "https://dafripremier.com/aml-policy/"
+            "href": "https://www.dafripremier.com"
           }
         ]
       }
