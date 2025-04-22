@@ -12,9 +12,22 @@ const modifySidebarVcItem = (element) => {
   if (link) {
     link.setAttribute(
       "href",
-      "https://dl.dropboxusercontent.com/scl/fi/bpsk4i5jh4ooht67zf9jl/vc-prospectus.pdf?rlkey=k8y8nbwa969mv23xvmnbvwxcf&st=dxaxklou"
+      "https://dl.dropboxusercontent.com/scl/fi/ckrpp13wqzmmpmt7j8eq2/DafriPremier-Investor-Prospectus-For-VCs.pdf?rlkey=62fngndx5bvy9dxbg6dx6digq&st=utuzpw10"
     );
-    link.setAttribute("download", "VC-Prospectus.pdf");
+    link.setAttribute(
+      "download",
+      "DafriPremier™ Investor Prospectus For VCs.pdf"
+    );
+  }
+};
+
+const modifySidebarGetStartedItem = (element) => {
+  if (!element) return;
+  element.innerHTML = `<a class="group mt-2 lg:mt-0 flex items-center pr-3 py-1.5 cursor-pointer focus:outline-primary dark:focus:outline-primary-light gap-x-3 rounded-xl hover:bg-gray-600/5 dark:hover:bg-gray-200/5 text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300" style="padding-left:1rem">Get Started</a>`;
+
+  const link = element.querySelector("a");
+  if (link) {
+    link.setAttribute("href", "https://www.dafripremier.com/register");
   }
 };
 
@@ -22,8 +35,16 @@ const desktopVcItem = document.querySelector(
   "#sidebar [id='\\/vc-prospectus']"
 );
 
+const desktopGetStartedItem = document.querySelector(
+  "#sidebar [id='\\/get-started']"
+);
+
 if (desktopVcItem) {
   modifySidebarVcItem(desktopVcItem);
+}
+
+if (desktopGetStartedItem) {
+  modifySidebarGetStartedItem(desktopGetStartedItem);
 }
 
 const menuBtn = document.querySelector(
@@ -34,11 +55,15 @@ const observer = new MutationObserver((mutations) => {
   const dialogElement = document.querySelector('[id^="headlessui-dialog"]');
   if (dialogElement) {
     const mobileVcItem = dialogElement.querySelector("[id='\\/vc-prospectus']");
+    const mobileVcItemGetItem = dialogElement.querySelector(
+      "[id='\\/get-started']"
+    );
     if (mobileVcItem) {
       // Temporarily disconnect observer while making changes
       observer.disconnect();
       observer.disconnect();
       modifySidebarVcItem(mobileVcItem);
+      modifySidebarGetStartedItem(mobileVcItemGetItem);
       // Reconnect observer after changes are made
       observer.observe(document.body, {
         childList: true,
@@ -55,8 +80,7 @@ observer.observe(document.body, {
   attributes: true,
 });
 
-// Footer
-
+// =============== Footer ================= //
 const footerItems = [
   {
     label: "Personal Account",

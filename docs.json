@@ -24,7 +24,8 @@
           "send-money",
           "invoicing",
           "mobicash",
-          "dafrifx-hub"
+          "dafrifx-hub",
+          "get-started"
         ]
       },
       {
@@ -63,9 +64,9 @@
   },
   "footer": {
     "socials": {
-      "instagram": "https://www.instagram.com/dafripremier/",
-      "facebook": "https://www.facebook.com/dafripremier/",
-      "x": "https://x.com/dafripremier"
+      "instagram": "https://www.instagram.com/DafriBank/",
+      "facebook": "https://www.facebook.com/DafriBank/",
+      "x": "https://x.com/DafriBank"
     },
     "links": [
       {
